@@ -3,7 +3,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.0"
+  version: "1.1.1"
   # Upstream requires-python is >=3.10, but the only ibm-watsonx-ai on
   # conda-forge requires >=3.11, so 3.11 is the effective build/runtime floor.
   python_min: "3.11"
@@ -14,7 +14,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/langchain-ibm/langchain_ibm-${{ version }}.tar.gz
-  sha256: 09695295a2773a2f651272586e86a95275872b404c11421d609cfb7866a17c26
+  sha256: 9d240503654672ebc323e5e28fede197569e8af30db76ad8403a74d820bbbd8b
 
 build:
   number: 0
