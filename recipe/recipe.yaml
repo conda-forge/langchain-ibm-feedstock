@@ -3,7 +3,7 @@
 schema_version: 1
 
 context:
-  version: "1.1.1"
+  version: "1.1.2"
 
 package:
   name: langchain-ibm
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/langchain-ibm/langchain_ibm-${{ version }}.tar.gz
-  sha256: 9d240503654672ebc323e5e28fede197569e8af30db76ad8403a74d820bbbd8b
+  sha256: ae162e7a8eaaf72a945abc92609638049619691e3f4a7c338b80a360574f0bbc
 
 build:
   number: 0
